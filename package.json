@@ -1,0 +1,14 @@
+{
+  "name": "substatus-runs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Creates Testomat.io runs whose test results carry substatuses and meta",
+  "type": "module",
+  "scripts": {
+    "test": "node --env-file=.env run.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@testomatio/reporter": "2.23.0"
+  }
+}
